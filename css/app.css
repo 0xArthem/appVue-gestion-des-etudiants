@@ -25,11 +25,10 @@ nav{
 }
 /***/
 .div__panneau_gestion{
-    background-color: #fbfbfb;
+    /* background-color: #fbfbfb; */
     margin-top:75px;
     padding: 20px;
-    padding-bottom: 200px;
-    border-bottom:solid 2px black;
+    /* border-bottom:solid 2px black; */
 }
 .titre__panneau_gestion{
     color: black;
@@ -38,4 +37,7 @@ nav{
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
+}
+[v-cloak] {
+    display: none;
 }
